@@ -23,7 +23,6 @@ public class DirectoryModel : FileSystemItemModel
 
     public DirectoryModel(string DirectoryPath) : this(new DirectoryInfo(DirectoryPath))
     {
-
     }
 
     public DirectoryModel(DirectoryInfo Directory) => _Directory = Directory;
